@@ -1,0 +1,10 @@
+app:
+	python3 manage.py startapp apps
+
+mig:
+	python3 manage.py  migrate
+	python3 manage.py  makemigrations
+
+user:
+	python3 manage.py createsuperuser
+
